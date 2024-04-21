@@ -1,0 +1,10 @@
+server:
+ port: 8091
+spring:
+ kafka:
+  bootstrap-servers: 143.110.254.143:9092
+  consumer:
+   group-id: my-group
+   auto-offset-reset: earliest
+  template:
+   default-topic: testTopicname
